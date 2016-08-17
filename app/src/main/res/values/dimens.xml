@@ -1,0 +1,57 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="main_menu_icon_width">80dp</dimen>
+    <dimen name="main_menu_icon_height">80dp</dimen>
+    <dimen name="firstIconMarginLeft">20dp</dimen>
+    <dimen name="iconMarginTop">20dp</dimen>
+    <dimen name="iconmarginBottom">20dp</dimen>
+    <dimen name="iconMarginRight">20dp</dimen>
+    <dimen name="iconMarginLeft">30dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+
+    <dimen name="loginScreenAppName">50sp</dimen>
+    <dimen name="loginscreenButton">350dp</dimen>
+
+    <!-- Dimensions for the delivery details -->
+    <dimen name="deliveryInstructionText">25sp</dimen>
+    <dimen name="deliveryCustomerName">20dp</dimen>
+    <dimen name="deliveryAccountNumber">20dp</dimen>
+    <dimen name="deliveryPackageDetails">15dp</dimen>
+    <dimen name="deliveryButtonWidth">300dp</dimen>
+    <dimen name="deliveryButtonheight">40dp</dimen>
+    <dimen name="deliveryLabels">12sp</dimen>
+    <dimen name="deliveryTotals">35sp</dimen>
+
+    <!-- Dimensions for the delivery list-->
+    <dimen name="deliveryListCustomerName">15sp</dimen>
+    <dimen name="deliveryListNumberOfPackages">15sp</dimen>
+    <dimen name="deliveryListAccountNumber">15sp</dimen>
+    <dimen name="deliveryListTelephoneNumber">15sp</dimen>
+
+    <!-- Dimensions for the payment page -->
+    <dimen name="paymentInstructionHeaderSize">30sp</dimen>
+    <dimen name="paymentCustomerTotalHeaderSize">12sp</dimen>
+    <dimen name="paymentChangeHeaderSize">12sp</dimen>
+    <dimen name="paymentOtherLabelSize">15sp</dimen>
+
+    <!-- Dimensions for the sync page -->
+    <dimen name="syncHeaderTextSise">25sp</dimen>
+    <dimen name="button_padding">16dp</dimen>
+    <dimen name="button_height">36dp</dimen>
+    <dimen name="button_textSize">14sp</dimen>
+    <dimen name="list_tileHeight">90dp</dimen>
+    <dimen name="list_paddingLeft">13dp</dimen>
+    <dimen name="list_paddingTop">10dp</dimen>
+    <dimen name="list_paddingBottom">10dp</dimen>
+    <dimen name="list_TitleTextSize">17sp</dimen>
+    <dimen name="list_textSize">14sp</dimen>
+    <dimen name="ic_clear_margin">10dp</dimen>
+
+</resources>

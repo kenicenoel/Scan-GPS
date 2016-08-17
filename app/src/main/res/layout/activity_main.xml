@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal"
+    >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ImageView
+        android:id="@+id/appIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_person_pin_circle_black_24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="Scan a package and the location will be captured automatically"
+        android:padding="10dp"
+        android:layout_below="@id/appIcon"
+        android:layout_marginTop="20dp"/>
+
+
+    <EditText
+        android:id="@+id/scanEditTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Scan the package"
+        android:layout_below="@id/title"
+
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-light"
+        android:visibility="visible" />
+
+
+    <TextView
+    android:id="@+id/previouslyScanned"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    android:layout_below="@id/scanEditTextView"
+    android:layout_centerHorizontal="true"
+    android:text="Last scanned package appears here"
+    android:textColor="@color/white"/>
+
+
+    <LinearLayout
+        android:id="@+id/mapContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:layout_below="@id/previouslyScanned">
+
+        <fragment
+            android:id="@+id/mapView"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </fragment>
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/red"
+        android:fontFamily="sans-serif-medium"
+        android:paddingLeft="@dimen/button_padding"
+        android:paddingRight="@dimen/button_padding"
+        android:text="Exit"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_textSize"
+        android:visibility="visible"
+
+        />
+
+</RelativeLayout>
